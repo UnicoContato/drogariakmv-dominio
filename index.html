@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drogaria Principal | Cuidando de você</title>
+    <meta name="description" content="Há 32 anos oferecendo o melhor atendimento, com responsabilidade e respeito em Mossoró.">
+    <meta property="og:title" content="Drogaria Principal" />
+    <meta property="og:description" content="Há 32 anos oferecendo o melhor atendimento." />
+    <meta property="og:image" content="https://drogariakmv.com.br/img/4.jpeg" />
+    <meta property="og:url" content="https://drogariakmv.com.br" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6b21a8',
+                        secondary: '#ea580c'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased overflow-x-hidden">
+
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 glass py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#inicio" class="text-2xl font-bold text-primary tracking-tighter">
+                DROGARIA PRINCIPAL
+            </a>
+            <div class="hidden md:flex space-x-8 items-center font-semibold">
+                <a href="#inicio" class="hover:text-secondary transition-colors">Início</a>
+                <a href="#sobre" class="hover:text-secondary transition-colors">Sobre Nós</a>
+                <a href="#servicos" class="hover:text-secondary transition-colors">Serviços</a>
+                <a href="#galeria" class="hover:text-secondary transition-colors">Galeria</a>
+                <a href="#contato" class="hover:text-secondary transition-colors">Contato</a>
+            </div>
+            <a href="https://wa.me/558433162639" target="_blank" class="hidden md:flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-bold transition-transform hover:scale-105">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Peça pelo WhatsApp
+            </a>
+            <button id="menu-btn" class="md:hidden text-primary focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden glass-dark text-white absolute w-full left-0 top-full flex flex-col items-center py-6 space-y-4">
+            <a href="#inicio" class="text-lg hover:text-secondary">Início</a>
+            <a href="#sobre" class="text-lg hover:text-secondary">Sobre Nós</a>
+            <a href="#servicos" class="text-lg hover:text-secondary">Serviços</a>
+            <a href="#galeria" class="text-lg hover:text-secondary">Galeria</a>
+            <a href="#contato" class="text-lg hover:text-secondary">Contato</a>
+            <a href="https://wa.me/558433162639" target="_blank" class="bg-green-500 px-6 py-2 rounded-full font-bold mt-4">WhatsApp</a>
+        </div>
+    </nav>
+
+    <header id="inicio" class="relative h-screen flex items-center justify-center bg-cover bg-center bg-fixed" style="background-image: url('img/4.jpeg');">
+        <div class="absolute inset-0 bg-black/60"></div>
+        <div class="relative z-10 text-center px-4 fade-in">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 tracking-tight drop-shadow-lg">DROGARIA PRINCIPAL</h1>
+            <p class="text-xl md:text-3xl text-gray-200 mb-8 font-light drop-shadow-md">Cuidando de você e da sua família!</p>
+            <a href="https://wa.me/558433162639" target="_blank" class="inline-block bg-secondary hover:bg-orange-500 text-white text-lg font-bold px-10 py-4 rounded-full shadow-xl transition-transform hover:scale-105">
+                Faça seu Pedido
+            </a>
+        </div>
+    </header>
+
+    <section id="sobre" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="glass p-10 md:p-16 rounded-3xl shadow-xl text-center fade-in">
+                <h2 class="text-4xl font-bold text-primary mb-8">Nossa História</h2>
+                <div class="text-lg text-gray-700 leading-relaxed space-y-6">
+                    <p>Há 32 anos, meu esposo abriu sua primeira loja com um sonho no coração e muita vontade de trabalhar. Há 5 anos, começamos juntos a nossa loja, construindo uma nova história com a mesma dedicação e amor.</p>
+                    <p>Nossa missão sempre foi clara: Oferecer o melhor atendimento da cidade, garantir a melhor entrega, com responsabilidade e respeito. Mais do que vender, queremos cuidar de cada cliente como parte da nossa família.</p>
+                    <p class="font-semibold text-secondary text-xl pt-4">Temos muita gratidão a todos que fazem parte dessa caminhada!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-24 relative bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-primary mb-16 fade-in">Nossos Serviços</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="glass p-10 rounded-2xl text-center hover:-translate-y-2 transition-transform duration-300 fade-in border-t-4 border-t-primary">
+                    <svg class="w-16 h-16 text-primary mx-auto mb-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <g fill="currentColor"> <path fill="none" d="M0 0H24V24H0z" /> <path d="M19 2v2h-2v3c1.657 0 3 1.343 3 3v11c0 .552-.448 1-1 1H5c-.552 0-1-.448-1-1V10c0-1.657 1.343-3 3-3V4H5V2h14zm-2 7H7c-.552 0-1 .448-1 1v10h12V10c0-.552-.448-1-1-1zm-4 2v2h2v2h-2.001L13 17h-2l-.001-2H9v-2h2v-2h2zm2-7H9v3h6V4z" /> </g> </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Medicamentos</h3>
+                    <p class="text-gray-600">Ampla variedade de medicamentos genéricos e de referência com os melhores preços.</p>
+                </div>
+
+                <div class="glass p-10 rounded-2xl text-center hover:-translate-y-2 transition-transform duration-300 fade-in border-t-4 border-t-secondary" style="transition-delay: 100ms;">
+                    <svg class="w-16 h-16 text-secondary mx-auto mb-6" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 442 442" xml:space="preserve"> <g> <path d="M231.5,50.5c0-5.79-4.71-10.5-10.5-10.5c-5.79,0-10.5,4.71-10.5,10.5S215.21,61,221,61C226.79,61,231.5,56.29,231.5,50.5z" /> <path d="M346,163.682h-60V122c0-5.522-4.478-10-10-10h-10V10c0-5.523-4.478-10-10-10h-70c-5.523,0-10,4.477-10,10v102h-10 c-5.523,0-10,4.478-10,10v41.682H96c-11.028,0-20,8.972-20,20V422c0,11.028,8.972,20,20,20h250c11.028,0,20-8.972,20-20V183.682 C366,172.653,357.028,163.682,346,163.682z M196,20h50v92h-50V20z M96,422V183.682h70c5.523,0,10-4.477,10-10V132h35v71.682h-85 c-5.523,0-10,4.478-10,10V392c0,5.522,4.477,10,10,10h190c5.522,0,10-4.478,10-10v-60.892c0-5.522-4.478-10-10-10s-10,4.478-10,10 V382H136V223.682h75V352c0,5.522,4.477,10,10,10c5.523,0,10-4.478,10-10V223.682h75V297c0,5.522,4.478,10,10,10s10-4.478,10-10 v-83.318c0-5.522-4.478-10-10-10h-85V132h35v41.682c0,5.523,4.478,10,10,10h70L346.002,422H96z" /> </g> </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Perfumaria e Cosméticos</h3>
+                    <p class="text-gray-600">Produtos de higiene pessoal, cosméticos e perfumaria de diversas marcas.</p>
+                </div>
+
+                <div class="glass p-10 rounded-2xl text-center hover:-translate-y-2 transition-transform duration-300 fade-in border-t-4 border-t-primary" style="transition-delay: 200ms;">
+                    <svg class="w-16 h-16 text-primary mx-auto mb-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="10" cy="6" r="4" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M19 2C19 2 21 3.2 21 6C21 8.8 19 10 19 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M17 4C17 4 18 4.6 18 6C18 7.4 17 8 17 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">Atendimento Humanizado</h3>
+                    <p class="text-gray-600">Nossa equipe está preparada para cuidar de você como parte da nossa família.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-primary mb-16 fade-in">Conheça Nossa Loja</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-2xl shadow-lg fade-in">
+                    <img src="img/4.jpeg" alt="Fachada" class="w-full h-64 object-cover hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-lg fade-in" style="transition-delay: 100ms;">
+                    <img src="img/1.jpeg" alt="Interior Loja" class="w-full h-64 object-cover hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-lg fade-in" style="transition-delay: 200ms;">
+                    <img src="img/2.jpeg" alt="Produtos" class="w-full h-64 object-cover hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-lg fade-in">
+                    <img src="img/3.jpeg" alt="Atendimento" class="w-full h-64 object-cover hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-lg fade-in" style="transition-delay: 100ms;">
+                    <img src="img/5.jpeg" alt="Lateral Fachada" class="w-full h-64 object-cover hover:scale-110 transition-transform duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+                <div class="glass p-10 rounded-3xl shadow-xl flex flex-col justify-center fade-in">
+                    <h2 class="text-4xl font-bold text-primary mb-8">Contato e Localização</h2>
+                    <ul class="space-y-6 text-lg text-gray-700">
+                        <li class="flex items-start">
+                            <span class="font-bold w-32 shrink-0">Empresa:</span>
+                            <span>DROGARIA KMV LTDA<br><span class="text-sm text-gray-500">Nome Fantasia: DROGARIA PRINCIPAL</span></span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold w-32 shrink-0">CNPJ:</span>
+                            <span>06.084.261/0001-13</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold w-32 shrink-0">Endereço:</span>
+                            <span>Av Alberto Maranhão, 964<br>Alto da Conceição<br>Mossoró - RN<br>CEP: 59600-315</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold w-32 shrink-0">Telefone:</span>
+                            <span>(84) 8840-2828</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold w-32 shrink-0">E-mail:</span>
+                            <span class="break-all">katiamonica@hotmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-xl fade-in h-[400px] lg:h-auto border border-gray-200" style="transition-delay: 200ms;">
+<iframe src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1773927153160!5m2!1spt-BR!2sbr!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREhvZG5lSlE.!2m2!1d-5.198368121024751!2d-37.34839310226185!3f338.3265973666242!4f25.24711249527664!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 text-center text-sm">
+        <div class="container mx-auto px-4">
+            <h3 class="text-white text-xl font-bold mb-4">DROGARIA PRINCIPAL</h3>
+            <p class="mb-2">DROGARIA KMV LTDA - CNPJ: 06.084.261/0001-13</p>
+            <p class="mb-6">&copy; <span id="year"></span> Todos os direitos reservados.</p>
+            <a href="#" id="open-modal" class="text-gray-300 hover:text-white underline transition-colors">Política de Privacidade</a>
+        </div>
+    </footer>
+
+    <div id="privacy-modal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/70 backdrop-blur-sm p-4">
+        <div class="bg-white rounded-3xl w-full max-w-2xl max-h-[80vh] overflow-y-auto p-8 relative shadow-2xl">
+            <button id="close-modal" class="absolute top-6 right-6 text-gray-500 hover:text-red-500">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <h2 class="text-2xl font-bold text-primary mb-6">Política de Privacidade</h2>
+            <div class="text-gray-600 space-y-4">
+                <p>A sua privacidade é importante para nós. É política da Drogaria Principal respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site.</p>
+                <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento.</p>
+                <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>
+                <p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p>
+                <p>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.</p>
+                <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
